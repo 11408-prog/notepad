@@ -1,0 +1,36 @@
+build/
+out/
+
+# Qt / qmake / CMake generated files
+.qtcreator/
+.qmake.stash
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Native build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.pdb
+*.ilk
+
+# Local runtime data
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
